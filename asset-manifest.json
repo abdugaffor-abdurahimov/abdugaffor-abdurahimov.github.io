@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abdugaffor-abdurahimov.github.io/static/css/main.6783c9d7.chunk.css",
+    "main.js": "/abdugaffor-abdurahimov.github.io/static/js/main.9722cb34.chunk.js",
+    "main.js.map": "/abdugaffor-abdurahimov.github.io/static/js/main.9722cb34.chunk.js.map",
+    "runtime-main.js": "/abdugaffor-abdurahimov.github.io/static/js/runtime-main.57ce399f.js",
+    "runtime-main.js.map": "/abdugaffor-abdurahimov.github.io/static/js/runtime-main.57ce399f.js.map",
+    "static/js/2.870919dc.chunk.js": "/abdugaffor-abdurahimov.github.io/static/js/2.870919dc.chunk.js",
+    "static/js/2.870919dc.chunk.js.map": "/abdugaffor-abdurahimov.github.io/static/js/2.870919dc.chunk.js.map",
+    "static/js/3.465c90be.chunk.js": "/abdugaffor-abdurahimov.github.io/static/js/3.465c90be.chunk.js",
+    "static/js/3.465c90be.chunk.js.map": "/abdugaffor-abdurahimov.github.io/static/js/3.465c90be.chunk.js.map",
+    "index.html": "/abdugaffor-abdurahimov.github.io/index.html",
+    "static/css/main.6783c9d7.chunk.css.map": "/abdugaffor-abdurahimov.github.io/static/css/main.6783c9d7.chunk.css.map",
+    "static/js/2.870919dc.chunk.js.LICENSE.txt": "/abdugaffor-abdurahimov.github.io/static/js/2.870919dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57ce399f.js",
+    "static/js/2.870919dc.chunk.js",
+    "static/css/main.6783c9d7.chunk.css",
+    "static/js/main.9722cb34.chunk.js"
+  ]
+}
