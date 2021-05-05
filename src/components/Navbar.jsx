@@ -8,9 +8,9 @@ const Navbar = () => {
 		<div className="nav">
 			<div className="nav-header">
 				<div className="nav-title">
-					<MoonIcon />
-					<ThemeToggler />
 					<SunIcon />
+					<ThemeToggler />
+					<MoonIcon />
 				</div>
 			</div>
 
