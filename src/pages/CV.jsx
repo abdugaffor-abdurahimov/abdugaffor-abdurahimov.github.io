@@ -69,11 +69,6 @@ const CV = () => {
           <section className="profile">
             <h3 className="heading-secondary">Info</h3>
             <p>
-              I am a full-stack engineer mainly focused on MERN stack
-              development. I also know the basics of Django and some Data
-              Science library such as Numpy, Pandas, Matplotlib and Seaborn.
-            </p>
-            <p>
               I have no job experience yet but I have built more than 30
               applications. I like problem-solving. My deep love of math and
               physics brought me into the programming world. I am coding for 2

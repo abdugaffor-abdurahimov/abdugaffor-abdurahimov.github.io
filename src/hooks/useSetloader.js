@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 const useSetloader = () => {
-  const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState(true);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 3000);
+	setTimeout(() => {
+		setLoading(false);
+	}, 1);
 
-  return loading;
+	return loading;
 };
 
 export default useSetloader;

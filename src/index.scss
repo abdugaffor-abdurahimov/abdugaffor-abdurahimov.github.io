@@ -1,106 +1,110 @@
 @import "./styles/colors.scss";
 
 body {
-  margin: 0;
-  font-family: "Roboto Mono", monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: "Roboto Mono", monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
-  svg {
-    width: 20px;
-    margin-right: 4px;
-  }
+	svg {
+		width: 20px;
+		margin-right: 4px;
+	}
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 .dark {
-  color: $primary;
-  background-color: $body-background;
+	color: $primary;
+	background-color: $body-background;
 
-  #projects {
-    .project-item {
-      border-bottom: 1px dashed rgb(78, 78, 78);
-    }
+	#projects {
+		.project-item {
+			border-bottom: 1px dashed rgb(78, 78, 78);
+		}
 
-    .project-item:hover {
-      border: 1px solid rgb(48, 48, 48);
-    }
-  }
+		.project-item img {
+			transition: all 0.005s ease-in-out;
+		}
 
-  section {
-    border-bottom: 1px solid #2c2c2c;
-  }
+		.project-item img:hover {
+			transform: scale(1.06);
+		}
+	}
 
-  h4 {
-    color: rgb(218, 216, 216);
-    font-weight: bolder;
-  }
+	section {
+		border-bottom: 1px solid #2c2c2c;
+	}
 
-  p {
-    color: rgb(218, 216, 216);
-  }
+	h4 {
+		color: rgb(218, 216, 216);
+		font-weight: bolder;
+	}
 
-  #google {
-    background-color: #161b22;
+	p {
+		color: rgb(218, 216, 216);
+	}
 
-    input {
-      background-color: #1b1b1a;
-      color: #ffffff;
-    }
+	#google {
+		background-color: #161b22;
 
-    li a {
-      color: white;
-    }
-  }
+		input {
+			background-color: #1b1b1a;
+			color: #ffffff;
+		}
 
-  .buttons {
-    .button {
-      color: #cfcec5;
-    }
-  }
+		li a {
+			color: white;
+		}
+	}
+
+	.buttons {
+		.button {
+			color: #cfcec5;
+		}
+	}
 }
 
 .light {
-  background-color: $background-light;
+	background-color: $background-light;
 
-  section {
-    border-bottom: 1px solid #eeeeee;
-  }
+	section {
+		border-bottom: 1px solid #eeeeee;
+	}
 
-  #projects {
-    .project-item:hover {
-      border: 1px solid rgb(238, 238, 238);
-    }
-  }
+	#projects {
+		img:hover {
+			transition: translateX(-20%);
+		}
+	}
 
-  #google {
-    background-color: white;
-    input {
-      background-color: white;
-      color: black;
-    }
+	#google {
+		background-color: white;
+		input {
+			background-color: white;
+			color: black;
+		}
 
-    li a {
-      color: #000000;
-    }
+		li a {
+			color: #000000;
+		}
 
-    .buttons {
-      .button {
-        background-color: #f8f9fa;
-        color: black;
-      }
+		.buttons {
+			.button {
+				background-color: #f8f9fa;
+				color: black;
+			}
 
-      .button:hover {
-        border: 1px solid #c8c8c8;
-      }
+			.button:hover {
+				border: 1px solid #c8c8c8;
+			}
 
-      .button:focus {
-        border: 1px solid #4885ed;
-      }
-    }
-  }
+			.button:focus {
+				border: 1px solid #4885ed;
+			}
+		}
+	}
 }
