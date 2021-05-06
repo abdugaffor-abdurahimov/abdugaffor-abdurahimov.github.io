@@ -99,12 +99,12 @@ code {
 			}
 		}
 	}
+}
 
-	.project-item img {
-		transition: all 0.005s ease-in-out;
-	}
+.project-item img {
+	transition: all 0.005s ease-in-out;
+}
 
-	.project-item img:hover {
-		transform: scale(1.06);
-	}
+.project-item img:hover {
+	transform: scale(1.06);
 }

@@ -6,25 +6,22 @@ import { SunIcon, MoonIcon } from "./icons";
 export default function ToggleTheme() {
 	const [theme, setTheme] = useContext(ThemeContext);
 	const themeToggle = () => {
-		console.log("ssssssss");
 		setTheme(theme === Themes.dark ? Themes.light : Themes.dark);
 	};
 
 	return (
-		<div>
-			{" "}
-			{theme === Themes.dark && <MoonIcon />}
-			<form id="theme-toggle">
-				<label className="switch">
-					<input
-						type="checkbox"
-						checked={theme === Themes.dark}
-						onChange={themeToggle}
-					/>
-					<span className="slider round"></span>
-				</label>
-			</form>
-			{theme === Themes.light && <SunIcon />}
+		<div id="theme-toggle">
+			<input
+				onChange={themeToggle}
+				type="checkbox"
+				className="checkbox"
+				id="chk"
+			/>
+			<label className="label" htmlFor="chk">
+				<MoonIcon />
+				<SunIcon />
+				<div className="ball"></div>
+			</label>
 		</div>
 	);
 }

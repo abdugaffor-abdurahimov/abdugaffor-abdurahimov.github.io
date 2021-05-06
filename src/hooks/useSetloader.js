@@ -5,7 +5,7 @@ const useSetloader = () => {
 
 	setTimeout(() => {
 		setLoading(false);
-	}, 1);
+	}, 3000);
 
 	return loading;
 };
