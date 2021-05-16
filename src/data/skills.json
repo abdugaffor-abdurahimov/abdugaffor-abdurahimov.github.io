@@ -1,0 +1,32 @@
+[
+	{
+		"category": "DevOps",
+		"technologies": [
+			"OS-Linux",
+			"Shell-Bash",
+			"Tool-Docker",
+			"Cloud-Azure",
+			"Tool-Git"
+		]
+	},
+	{
+		"category": "Languages",
+		"technologies": [
+			"Code-JavaScript",
+			"Code-TypeScript",
+			"Code-NodeJS",
+			"Code-Python",
+			"IDE-Vim"
+		]
+	},
+	{
+		"category": "Database & Framework",
+		"technologies": [
+			"Tool-Mongo",
+			"Tool-PostgreSQL",
+			"Code-React",
+			"Code-Express",
+			"IDE-Vim"
+		]
+	}
+]

@@ -251,7 +251,7 @@ export const MoonIcon = () => (
 		fill="red"
 		style={{
 			width: "15px",
-			height: "15px",
+			height: "12px",
 			marginLeft: "2px",
 			enableBackground: "new 0 0 187.322 187 .322",
 		}}
